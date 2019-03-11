@@ -1,5 +1,5 @@
 FROM node:8-slim
-RUN apt-get update && apt-get install -y git zip bzip2 python \
+RUN apt-get update && apt-get install -y git zip bzip2 python make \
     libappindicator1 \
     fonts-liberation \
     libasound2 libgconf-2-4 libnspr4 libxss1 libnss3 \
